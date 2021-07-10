@@ -1,0 +1,45 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(197, 231, 231);
+    flex-wrap: wrap;
+    height: 80px;
+    align-items: center;
+}
+
+.left-side{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+
+
+}
+
+.right-side{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+}
+
+.button{
+    margin: 10px;
+    padding: 10px;
+    font-size: larger;
+    width: max-content;
+    border-radius: 25px;
+    color: rgb(73, 77, 77);
+    border: none;
+    background-color: rgb(197, 231, 231);
+
+}
+
+.button:hover{
+    background-color: rgb(175, 197, 197);
+    cursor: pointer;
+    /* text-decoration: underline; */
+    
+}

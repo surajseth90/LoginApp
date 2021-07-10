@@ -1,0 +1,97 @@
+.body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    background-color: rgb(208, 240, 229);
+
+}
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup{
+    border: 1px solid grey;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    padding: 10px;
+    border-radius: 50px;
+    background-color: rgb(225, 245, 236);
+
+}
+
+.signupFormHeader{
+    color: rgb(235, 160, 63);
+}
+
+.form-group{
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    justify-content: space-between;
+    text-align: start;
+    align-items: flex-start;
+}
+
+.form-control{
+    width: 40%;
+    padding: 5px;
+    font-size: large;
+    margin: 5px auto;
+    color: rgb(73, 77, 77);
+ 
+}
+
+.form-control2{
+    width: 43%;
+    padding: 5px;
+    font-size: large;
+    margin: 5px auto;
+    color: rgb(73, 77, 77);
+ 
+}
+
+
+.label{
+    width: 20%;
+    padding: 5px;
+    font-size: large;
+    color: rgb(59, 102, 102);
+    text-align: justify;
+}
+
+.btn{
+    margin: 10px;
+    padding: 10px;
+    font-size: larger;
+    width: max-content;
+    border-radius: 25px;
+    color: rgb(73, 77, 77);
+    border: none;
+    background-color: rgb(225, 245, 236);
+}
+
+
+.btn:hover{
+    background-color: rgb(175, 197, 197);
+    cursor: pointer;
+    /* text-decoration: underline; */
+    
+}
+
+.valid-name{
+    width: 20%;
+    font-size: xx-small;
+    color: aquamarine;
+}
+
+.name-error{
+    font-size: xx-small;
+    width: 20%;
+
+    color: aquamarine;
+
+}
